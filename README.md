@@ -1,4 +1,4 @@
-# node-based-editor
+
 
 # 🧠 Node-Based Workflow Editor
 
@@ -25,17 +25,16 @@ A drag-and-drop interface for building data processing pipelines using React Flo
 ## 📦 Installation
 
 1. **Clone the repository:**
-
+   clone this repo and then follow the below commands:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-npm install
-npm start
-uvicorn main:app --reload --port 8000
+   
+  npm install
+  npm start
+  uvicorn main:app --reload --port 8000
 
 ##  🛠️ Configuration
 Make sure your backend exposes this endpoint and returns:
-
+```bash
 {
   "num_nodes": 3,
   "num_edges": 2,
