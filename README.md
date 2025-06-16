@@ -30,7 +30,7 @@ A drag-and-drop interface for building data processing pipelines using React Flo
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 npm install
-npm run dev
+npm start
 uvicorn main:app --reload --port 8000
 
 ##  🛠️ Configuration
