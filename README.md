@@ -21,16 +21,7 @@ A drag-and-drop interface for building data processing pipelines using React Flo
 - **Backend:** FastAPI (for pipeline validation)
 
 ---
-
-## 📦 Installation
-
-1. **Clone the repository:**
-   clone this repo and then follow the below commands:
-   ```bash
-   
-  npm install
-  npm start
-  uvicorn main:app --reload --port 8000
+  
 
 ##  🛠️ Configuration
 Make sure your backend exposes this endpoint and returns:
