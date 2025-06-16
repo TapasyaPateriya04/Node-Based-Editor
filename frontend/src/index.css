@@ -1,0 +1,74 @@
+/* Reset & Base Layout */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f5f7fa;
+  color: #1a1a1a;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth transitions for UI changes */
+body, button, input, textarea {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Code font */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #eaeaea;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2563eb;
+}
+
+/* Optional: dark theme support */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #111827;
+    color: #e5e7eb;
+  }
+
+  code {
+    background-color: #1f2937;
+    color: #facc15;
+  }
+
+  .button {
+    background-color: #4f46e5;
+  }
+
+  .button:hover {
+    background-color: #4338ca;
+  }
+}
